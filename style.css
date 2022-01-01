@@ -1,0 +1,307 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.r1 {
+    background-color: rgba(35, 47, 62, 255);
+
+}
+
+.r2 {
+    /* width: 95rem; */
+}
+
+.r3 {
+    background-color: rgba(19, 25, 33, 255);
+}
+
+
+
+.search_wrap .search_box {
+    position: relative;
+    width: 650px;
+    height: 50px;
+
+}
+
+.search_wrap .search_box .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.search_wrap .search_box .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: rgba(254, 189, 105, 255);
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+.search_wrap .search_box .btn:hover {
+    background: #708bd2;
+}
+
+.search_wrap .search_box .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+.search_wrap.search_wrap_3 .search_box .input {
+    border-radius: 50px;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn {
+    right: 0px;
+    border-radius: 50%;
+}
+
+
+.r5 {
+
+    margin-top: -290px;
+    z-index: 1000;
+    background-color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.r6 {
+    display: grid;
+    grid-template-columns: repeat(2, 220px);
+}
+
+.r7 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.r8 {
+    border: 2px solid rgb(114, 111, 111);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+
+}
+
+.r10 {
+    font-size: 3.5rem;
+}
+
+.r9 {
+    display: none;
+    font-size: 30px;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.r9:hover {
+    background-color: white;
+
+}
+
+.r11 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Estonia', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Zen Antique', serif;
+    font-weight: bold;
+}
+
+.r12 {
+    text-align: center;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comforter', cursive;
+    font-family: 'Estonia', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Zen Antique', serif;
+
+    font-size: 20px;
+}
+
+.r13 {
+    height: 20rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+
+}
+
+.r14 {
+    /* margin-left: 5rem;
+        margin-right: 2rem; */
+    margin-top: 4.5rem;
+
+}
+
+.r15:hover {
+    padding-bottom: 3px;
+
+    border-bottom: 2px solid white;
+}
+
+.r17 {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.r18 {
+    background-color: rgba(55, 71, 90, 255);
+
+}
+
+.r19 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.r20 {
+    color: rgba(255, 164, 28, 255);
+}
+
+.r21 {
+    color: rgba(99, 143, 146, 255);
+    transition-property: color;
+}
+
+.r21:hover {
+    color: rgba(226, 161, 48, 255);
+}
+
+.r22 {
+    background-color: rgba(255, 164, 28, 255);
+
+
+}
+
+.r23 {
+    /* height: 18rem; */
+}
+
+.r24 {
+    background-color: rgba(19, 25, 33, 255);
+}
+
+.toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: all 0.2s;
+}
+
+.middle-bar {
+    margin: 5px;
+}
+
+.r25 {
+    background-color: rgba(35, 47, 62, 255);
+
+}
+
+/* .r26 {
+    padding-left: 15rem;
+} */
+
+.r27 {
+    margin-left: -14rem;
+}
+
+.r28 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.r29 {
+    box-shadow: inset 5px 5px 12px rgb(170, 164, 164), -5px -5px 12px rgb(70, 65, 65);
+}
+
+
+
+.r31 {
+    background-color: rgba(55, 71, 90, 255);
+}
+
+.r32 {
+    position: relative;
+}
+
+.r33 {
+    position: absolute;
+}
+
+/* .r34 {
+    float: left;
+} */
+
+.r34 {
+    margin: auto;
+    margin-right: 3rem;
+}
+
+.r40 {}
+
+.r41 {}
+
+
+
+@media (max-width:500px) {
+    .r1 {
+        /* display: none; */
+    }
+
+    .r5 {
+        margin-top: 0px;
+    }
+
+    .search_wrap .search_box {
+        width: 11rem;
+    }
+
+    .r36 {
+        display: none;
+    }
+}
+
+@media (min-width:501px) {
+    .r35 {
+        display: none;
+    }
+
+}
